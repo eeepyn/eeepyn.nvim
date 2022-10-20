@@ -1,22 +1,24 @@
 -- install CocList
 vim.g.coc_global_extensions = { 
-	'coc-marketplace', -- there are manay coc extensions
+	'coc-marketplace', -- there are manay coc extensions,|:CocList marketplace| can search more extensions
 	'coc-markmap',  -- markdown && mindmap
 	'coc-pyright' , -- completion for python
 	'coc-tsserver', 'coc-json', 'coc-html', 'coc-css' -- web-development consider
 }
 
--- Some servers have issues with backup files, see #649.
-vim.opt.backup = false
-vim.opt.writebackup = false
-
 -- Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 -- delays and poor user experience.
-vim.opt.updatetime = 300
+vim.opt.updatetime = 100 -- 简单来说，就是让vim响应更快，TheCW推荐值100
+
+
+-- -- Some servers have issues with backup files, see #649.
+-- vim.opt.backup = false
+-- vim.opt.writebackup = false
+
 
 -- Always show the signcolumn, otherwise it would shift the text each time
 -- diagnostics appear/become resolved.
-vim.opt.signcolumn = "yes"
+-- vim.opt.signcolumn = "yes" --让显示行号那一列更宽
 
 local keyset = vim.keymap.set
 -- Auto complete
