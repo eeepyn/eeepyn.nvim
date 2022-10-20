@@ -1,5 +1,6 @@
 -- install CocList
 vim.g.coc_global_extensions = { 
+	'coc-marketplace', -- there are manay coc extensions
 	'coc-markmap',  -- markdown && mindmap
 	'coc-pyright' , -- completion for python
 	'coc-tsserver', 'coc-json', 'coc-html', 'coc-css' -- web-development consider
