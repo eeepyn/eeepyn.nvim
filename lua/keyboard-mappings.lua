@@ -32,3 +32,6 @@ keymap("n", "Q", ":q<CR>", opts)
 ------------------------------------------------------------------------------------------- plugins keyboard mappings
 -- nvimTree
 keymap("n", "<Leader>t", ":NvimTreeToggle<CR>", opts)
+
+-- packer
+keymap("n", "<Leader>p", ":PackerSync<CR>", opts)

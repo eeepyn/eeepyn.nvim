@@ -1,6 +1,7 @@
 require('plugins-manager-packer') -- load plugins-manager-packer.lua
 require('init-coc') -- load init-coc.lua for coc.nvim, it can Make your Vim/Neovim as smart as VSCode.
 require('init-nvim-tree') -- load init-nvim-tree.lua  for setup nvim-tree
+require('init-auto-save') -- load init-auto-save.lua for setup auto-save
 require('keyboard-mappings') -- load keyboard-mappings.lua for setup keyboard binding
 
 
