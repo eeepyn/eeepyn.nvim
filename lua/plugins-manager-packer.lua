@@ -33,4 +33,7 @@ return require('packer').startup(function(use)
   -- tabline 
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'kyazdani42/nvim-web-devicons'}
 
+  -- autosave
+  use {"Pocco81/auto-save.nvim"}
+
 end)
