@@ -26,7 +26,7 @@ vim.g.maplocalleader = " "
 -- 上下翻页
 keymap("n", "<C-u>", "8k", opts)
 keymap("n", "<C-d>", "8j", opts)
-keymap("n", "Q", ":q<CR>", opts)
+keymap("n", "ee", ":q<CR>", opts)
 
 
 ------------------------------------------------------------------------------------------- plugins keyboard mappings

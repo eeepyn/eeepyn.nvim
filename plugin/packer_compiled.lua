@@ -109,6 +109,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/eeepyn/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  sniprun = {
+    loaded = true,
+    path = "/home/eeepyn/.local/share/nvim/site/pack/packer/start/sniprun",
+    url = "https://github.com/michaelb/sniprun"
   }
 }
 
