@@ -7,6 +7,7 @@ require('keyboard-mappings') -- load keyboard-mappings.lua for setup keyboard bi
 
 --------------vim options
 vim.o.number = true --显示行号
+vim.o.relativenumber = true -- xiangdui xianshi number
 vim.o.cursorline = true --鼠标所在行高亮
 vim.o.termguicolors = true  -- 一些插件需要，如tabline插件bufferline.nvim
 
