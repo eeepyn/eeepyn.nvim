@@ -36,4 +36,10 @@ return require('packer').startup(function(use)
   -- autosave
   use {"Pocco81/auto-save.nvim"}
 
+  -- vim-test many diffrent languages
+  -- use "vim-test/vim-test"
+
+  -- code testing between lines
+  use { 'michaelb/sniprun', run = 'bash install.sh' }
+
 end)

@@ -1,8 +1,10 @@
 require('plugins-manager-packer') -- load plugins-manager-packer.lua
+require('keyboard-mappings') -- load keyboard-mappings.lua for setup keyboard binding
 require('init-coc') -- load init-coc.lua for coc.nvim, it can Make your Vim/Neovim as smart as VSCode.
 require('init-nvim-tree') -- load init-nvim-tree.lua  for setup nvim-tree
 require('init-auto-save') -- load init-auto-save.lua for setup auto-save
-require('keyboard-mappings') -- load keyboard-mappings.lua for setup keyboard binding
+require("bufferline").setup{} -- setup tabline extension of bufferline
+require("init-sniprun") -- load init-sniprun.lua for setup sniprun
 
 
 --------------vim options

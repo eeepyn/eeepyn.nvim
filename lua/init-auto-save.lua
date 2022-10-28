@@ -1,5 +1,4 @@
-local autosave = require("auto-save")
-autosave.setup{
+require("auto-save").setup{
     enabled = true, -- start auto-save when the plugin is loaded (i.e. when your package manager loads it)
     execution_message = {
 		message = function() -- message to print on save
